@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Calendário</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calendario-container">
+    <div class="header">
+      <button onclick="mudarMes(-1)">&#8592;</button>
+      <h2 id="mesAno"></h2>
+      <button onclick="mudarMes(1)">&#8594;</button>
+    </div>
+    <div class="dias-semana">
+      <div>Dom</div><div>Seg</div><div>Ter</div><div>Qua</div><div>Qui</div><div>Sex</div><div>Sáb</div>
+    </div>
+    <div class="dias" id="dias"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
