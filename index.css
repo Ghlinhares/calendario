@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .calendario-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dias-semana, .dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .dias div {
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .dias div.hoje {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
